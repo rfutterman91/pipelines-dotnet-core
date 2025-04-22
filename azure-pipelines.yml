@@ -22,3 +22,7 @@ steps:
     echo After building here I can push the deliverable to a repository
     echo Here I will run a curl command
   displayName: 'Run a 2nd multi-line script'
+
+steps:
+- script: echo Second Step of the pipeline
+  displayName: 'Run a 2nd one-line script'
