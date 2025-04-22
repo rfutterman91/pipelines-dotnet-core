@@ -17,3 +17,8 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- script: |
+    echo After building here I can push the deliverable to a repository
+    echo Here I will run a curl command
+  displayName: 'Run a 2nd multi-line script'
