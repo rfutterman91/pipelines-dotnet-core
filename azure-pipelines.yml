@@ -23,6 +23,7 @@ steps:
     echo Here I will run a curl command
   displayName: 'Run a 2nd multi-line script'
 
-steps:
-- script: echo Second Step of the pipeline
-  displayName: 'Run a 2nd one-line script'
+- script: |
+    echo After Pushing deliverable Clean Up Environment
+    echo BlaBlaBla
+  displayName: 'Run a 3rd multi-line script'
